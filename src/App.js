@@ -41,7 +41,7 @@ export class FilteredInput extends React.Component {
         this.slursRegex = new RegExp('(' + slurs.join('|') + ')', 'giu');
         this.state = {
             value: '',
-            valueFiltered: 'Placeholder',
+            valueFiltered: 'Type Your Unfiltered Thoughts Here',
             filterStack: [],
             unFilterStack: []
         };
